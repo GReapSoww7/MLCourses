@@ -1,0 +1,29 @@
+### RECAP ###
+
+
+// chapter 1: Decision-Tree Learning
+    -understanding and applying the correct algorithm to train decision trees (CART) > for problems involving Classification and Regression
+// chapter 2: 
+    -Generalization Error of an Unsupervised Learning Model
+    -Cross-Validation:
+        -underfitting and overfitting can be diagnosed with CV
+    -Ensembling:
+        -can produce more robust results than individual decision trees
+
+// chapter 3:
+    -Bagging:
+        -applied Randomization via bootstrapping > to construct a diverse set of trees in Ensemble learning
+    -Random Forests:
+        -further randomized by sampling features at the level of each node and tree of Ensemble
+
+// chapter 4:
+-Ensemble method to train predictors sequentially > each predictor learns/corrects from its predecessor's errors
+    -AdaBoost:
+        -tweaking the weights of training samples
+    -GradientBoosting:
+        -fitting each tree using Residual errors of predecessor as labels
+    -SGB:
+        -subsampling instances and features for better performance
+
+// chapter 5: Model Tuning
+    -GridSearchCV to tune hyperparams
